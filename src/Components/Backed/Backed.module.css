@@ -1,0 +1,45 @@
+.backed {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.top {
+  width: 50%;
+}
+
+.top h1 {
+  font-size: 2rem;
+}
+
+.divs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.div{
+    background-color: #f2f2f2;
+    padding: 1rem;
+    transition: .2s;
+}
+
+.div:hover{
+  scale: 1.08;
+}
+
+.icon{
+    font-size: 3rem;
+}
+
+.text{
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+@media screen and ( max-width: 600px ){
+  .top{
+    width: 100%;
+  }
+}

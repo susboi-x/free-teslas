@@ -1,0 +1,201 @@
+.header-body {
+  padding: 3rem;
+}
+
+.logo {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 3rem;
+}
+
+.header-title {
+  width: 55%;
+}
+
+.header-title p {
+  color: rgb(0, 195, 255);
+  font-weight: bold;
+}
+
+.header-foot {
+  margin-top: 6rem;
+}
+
+.header {
+  background-image: url(../../assets/hmrc.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 2rem;
+  box-shadow: 0px 13px 13px 22px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 13px 13px 22px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 13px 13px 22px rgba(0, 0, 0, 0.1);
+}
+
+.float {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 25rem;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem;
+  padding-top: 0;
+  text-align: center;
+  box-shadow: 0px 0px 27px 8px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 0px 0px 27px 8px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 0px 0px 27px 8px rgba(0, 0, 0, 0.66);
+}
+.float h1 {
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+.float p {
+  font-size: 13px;
+  margin-top: 1rem;
+}
+
+.apply {
+  width: 60%;
+  z-index: 9999;
+  background: white;
+  border-radius: 10px;
+  position: fixed;
+  top: 3rem;
+  left: 20%;
+  box-shadow: 0px 0px 400px 69px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 0px 0px 400px 69px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 0px 0px 400px 69px rgba(0, 0, 0, 0.66);
+}
+
+.roit {
+  width: 50%;
+  z-index: 9999999999;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  position: fixed;
+  top: 4rem;
+  left: 25%;
+  box-shadow: 0px 0px 400px 69px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 0px 0px 400px 69px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 0px 0px 400px 69px rgba(0, 0, 0, 0.66);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roit svg{
+    color: white;
+    background-color: green;
+    font-size: 7rem;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+.apply h1 {
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.input input {
+  font-size: 1rem;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.imgs {
+  display: flex;
+  width: 60%;
+  gap: 0.5rem;
+}
+
+.imgs input {
+  border: 1px solid red;
+  background: rgb(0, 195, 255);
+}
+
+input[type="file" i] {
+  display: none;
+}
+
+.sense {
+  margin: 0 auto;
+  background: rgb(0, 195, 255);
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.3rem;
+}
+
+.sense svg {
+  font-size: 1.5rem;
+}
+
+.form button {
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  background: black;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.form button:hover {
+  background: black;
+  border: 1px double white;
+}
+
+.apply > svg {
+  position: absolute;
+  top: 28px;
+  right: 27px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .apply > svg {
+    top: 5px;
+    right: 10px;
+  }
+
+  .header-body {
+    padding: 0;
+  }
+
+  .header-title {
+    width: 100%;
+  }
+
+  .float {
+    width: 90%;
+    right: 5%;
+  }
+
+  .apply {
+    width: 90%;
+    left: 5%;
+  }
+}
