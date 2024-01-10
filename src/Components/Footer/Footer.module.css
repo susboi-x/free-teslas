@@ -1,0 +1,43 @@
+footer{
+    background-color: #f2f2f2;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D5E69;
+    border-radius: 100px;
+    margin: 5px;
+    color: white;
+    border: 1px solid #3D5E69;
+    transition: .2s;
+}
+
+.icon:hover{
+    background-color: white;
+    color: #3D5E69;
+}
+
+.footer-item h2{
+    margin-bottom: 1rem;
+}
+
+@media screen and ( max-width: 600px ){
+    .icons{
+        padding: 0;
+        justify-content: space-around;
+    }
+}
