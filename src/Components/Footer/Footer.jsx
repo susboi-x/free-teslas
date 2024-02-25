@@ -25,10 +25,10 @@ const Footer = () => {
           <a target="blank" href="https://www.instagram.com/zedcarsltd?igsh=YzVkODRmOTdmMw%3D%3D&utm_source=qr" className={classes.icon}>
             <AiOutlineInstagram />
           </a>
-          <a target="blank" href="https://wa.link/3l89sg" className={classes.icon}>
+          <a target="blank" href="#" className={classes.icon}>
             <FaWhatsapp />
           </a>
-          <a target="blank" href="https://wa.link/3l89sg" className={classes.icon}>
+          <a target="blank" href="#" className={classes.icon}>
             <AiFillLinkedin />
           </a>
         </div>
